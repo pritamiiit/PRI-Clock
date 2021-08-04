@@ -1,0 +1,40 @@
+#clockcontainer{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-image: url(clock.png);
+    background-size: 100%; /*make the clock at center of the div*/
+    margin: auto;/*make the clock div at center of the screen*/
+}
+
+#hour, #min, #sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1%;
+    height: 15%;
+    top: 36%;
+    left: 49.6%;
+    opacity: 0.8;    
+}
+#min{
+    width: 1%;
+    height: 20%;
+    top: 31%;
+    left: 49.6%;
+    opacity: 0.8;
+    background-color: gray;
+}
+#sec{
+    width: 1%;
+    height: 25%;
+    top: 26%;
+    left: 49.6%;
+    opacity: 0.8;
+    background-color: red;
+
+}
